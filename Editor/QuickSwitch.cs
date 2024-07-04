@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -287,3 +289,5 @@ public class QuickSwitch : EditorUtility
         return blacklist.Contains(filename);
     }
 }
+
+#endif
